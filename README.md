@@ -7,15 +7,16 @@
 
 ##### Soln:
 
->>> import string
->>> string.ascii_lowercase[:14]
+import string
+string.ascii_lowercase[:14]
 'abcdefghijklmn'
->>> string.ascii_lowercase[:14:2]
+
+string.ascii_lowercase[:14:2]
 'acegikm'
 
 [i + j for i, j in zip(list_of_urls, string.ascii_lowercase[:14])]
 
-<<<-OR->>>
+--<<<-OR->>>
 for i in range(ord('a'), ord('n')+1):
     print chr(i),
 
