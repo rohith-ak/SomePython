@@ -18,3 +18,10 @@
 <<<-OR->>>
 for i in range(ord('a'), ord('n')+1):
     print chr(i),
+
+
+
+
+
+Split a string into N equal parts? [duplicate]
+parts = [your_string[i:i+n] for i in range(0, len(your_string), n)]
